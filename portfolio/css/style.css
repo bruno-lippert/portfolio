@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #04294F;
+  background-color: #000000;
 }
 
 .header-fixed {
@@ -38,8 +38,8 @@
 }
 
 .navigation > a {
-  background-color: #FFB400;
-  color: #04294F;
+  background-color: #1098F7;
+  color: #000000;
   text-decoration: none;
   padding: 10px;
   border-radius: 50px;
@@ -68,7 +68,7 @@
 }
 
 .border-about-me {
-  border: solid #FFB400 3px;
+  border: solid #1098F7 3px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -86,7 +86,7 @@
 .profile-picture > img {
   width: 100%;
   border-radius: 30%;
-  border: solid #FFB400 3px;
+  border: solid #1098F7 3px;
 }
 
 .about-me-text {
@@ -95,7 +95,7 @@
 }
 
 .about-me-text > .text > a {
-  color: #FFB400;
+  color: #1098F7;
   text-decoration: none;
 }
 .about-me-text > .text > a:hover {
@@ -107,9 +107,9 @@
 }
 
 .links-about-me > a {
-  background-color: #04294F;
-  color: #FFB400;
-  border: solid #FFB400 2px;
+  background-color: #000000;
+  color: #1098F7;
+  border: solid #1098F7 2px;
   text-decoration: none;
   padding: 7px;
   margin-top: 20px;
@@ -117,8 +117,8 @@
 }
 .links-about-me > a:hover {
   transition: 0.5s;
-  color: #04294F;
-  background-color: #FFB400;
+  color: #000000;
+  background-color: #1098F7;
 }
 
 .container-projects {
@@ -132,10 +132,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: solid #FFB400 2px;
+  border: solid #1098F7 2px;
   padding: 10px;
   border-radius: 30px;
-  color: #FFB400;
+  color: #1098F7;
   margin: 20px;
 }
 
@@ -146,8 +146,8 @@
 }
 
 .projects > .links-project > a {
-  color: #FFB400;
-  border: solid #FFB400 2px;
+  color: #1098F7;
+  border: solid #1098F7 2px;
   border-radius: 30px;
   padding: 5px;
   text-align: center;
@@ -155,8 +155,8 @@
   font-size: 1.2em;
 }
 .projects > .links-project > a:hover {
-  background-color: #FFB400;
-  color: #04294F;
+  background-color: #1098F7;
+  color: #000000;
   transition: 0.5s;
 }
 
@@ -176,7 +176,7 @@
 #container-skills {
   flex-direction: column;
   min-height: 100vh;
-  color: #FFB400;
+  color: #1098F7;
 }
 
 .skills {
@@ -193,7 +193,7 @@ footer {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  background-color: #FFB400;
+  background-color: #1098F7;
 }
 
 footer > p {
