@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
+  background-color: #1b1b1b;
 }
 
 .header-fixed {
@@ -39,7 +39,7 @@
 
 .navigation > a {
   background-color: #1098F7;
-  color: #000000;
+  color: #1b1b1b;
   text-decoration: none;
   padding: 10px;
   border-radius: 50px;
@@ -107,7 +107,7 @@
 }
 
 .links-about-me > a {
-  background-color: #000000;
+  background-color: #1b1b1b;
   color: #1098F7;
   border: solid #1098F7 2px;
   text-decoration: none;
@@ -194,6 +194,9 @@ footer {
   align-items: center;
   height: 100%;
   background-color: #1098F7;
+  gap: 5px;
+  padding: 20px 0;
+  font-size: 1.1em;
 }
 
 footer > p {
@@ -201,7 +204,7 @@ footer > p {
 }
 
 footer > p > a {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 footer > p > a:hover {
