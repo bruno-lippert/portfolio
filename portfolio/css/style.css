@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Ubuntu", sans-serif;
 }
 
 .container {
@@ -11,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #1b1b1b;
+  background-color: #c0c0c0;
 }
 
 .header-fixed {
@@ -38,8 +36,8 @@
 }
 
 .navigation > a {
-  background-color: #1098F7;
-  color: #1b1b1b;
+  background-color: #2a2a4a;
+  color: #c0c0c0;
   text-decoration: none;
   padding: 10px;
   border-radius: 50px;
@@ -68,7 +66,7 @@
 }
 
 .border-about-me {
-  border: solid #1098F7 3px;
+  border: solid #2a2a4a 3px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -86,7 +84,7 @@
 .profile-picture > img {
   width: 100%;
   border-radius: 30%;
-  border: solid #1098F7 3px;
+  border: solid #2a2a4a 3px;
 }
 
 .about-me-text {
@@ -95,7 +93,7 @@
 }
 
 .about-me-text > .text > a {
-  color: #1098F7;
+  color: #2a2a4a;
   text-decoration: none;
 }
 .about-me-text > .text > a:hover {
@@ -107,9 +105,9 @@
 }
 
 .links-about-me > a {
-  background-color: #1b1b1b;
-  color: #1098F7;
-  border: solid #1098F7 2px;
+  background-color: #c0c0c0;
+  color: #2a2a4a;
+  border: solid #2a2a4a 2px;
   text-decoration: none;
   padding: 7px;
   margin-top: 20px;
@@ -117,8 +115,8 @@
 }
 .links-about-me > a:hover {
   transition: 0.5s;
-  color: #000000;
-  background-color: #1098F7;
+  color: #c0c0c0;
+  background-color: #2a2a4a;
 }
 
 .container-projects {
@@ -132,10 +130,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: solid #1098F7 2px;
+  border: solid #2a2a4a 2px;
   padding: 10px;
   border-radius: 30px;
-  color: #1098F7;
+  color: #2a2a4a;
   margin: 20px;
 }
 
@@ -146,8 +144,8 @@
 }
 
 .projects > .links-project > a {
-  color: #1098F7;
-  border: solid #1098F7 2px;
+  color: #2a2a4a;
+  border: solid #2a2a4a 2px;
   border-radius: 30px;
   padding: 5px;
   text-align: center;
@@ -155,8 +153,8 @@
   font-size: 1.2em;
 }
 .projects > .links-project > a:hover {
-  background-color: #1098F7;
-  color: #000000;
+  background-color: #2a2a4a;
+  color: #c0c0c0;
   transition: 0.5s;
 }
 
@@ -176,7 +174,7 @@
 #container-skills {
   flex-direction: column;
   min-height: 100vh;
-  color: #1098F7;
+  color: #2a2a4a;
 }
 
 .skills {
@@ -193,10 +191,7 @@ footer {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  background-color: #1098F7;
-  gap: 5px;
-  padding: 20px 0;
-  font-size: 1.1em;
+  background-color: #2a2a4a;
 }
 
 footer > p {
@@ -204,7 +199,7 @@ footer > p {
 }
 
 footer > p > a {
-  color: #000000;
+  color: black;
   text-decoration: none;
 }
 footer > p > a:hover {
@@ -230,11 +225,9 @@ footer > p > a:hover {
   .navigation {
     font-size: 0.8em;
   }
-
   .about-me, .container-projects, #container-skills {
     font-size: 0.9em;
   }
-
   .profile-picture {
     width: 200px;
     height: 200px;
@@ -252,7 +245,6 @@ footer > p > a:hover {
     gap: 2px;
     padding: 1px;
   }
-
   .border-about-me {
     padding: 15px;
   }
