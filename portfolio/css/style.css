@@ -4,43 +4,26 @@
   box-sizing: border-box;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.body {
   background-color: #c0c0c0;
-}
-
-.header-fixed {
-  display: flex;
-  justify-content: center;
+  margin: 20px;
 }
 
 .header, footer {
   display: flex;
   justify-content: center;
   height: 70px;
-  width: 50%;
   background-color: transparent;
   border-radius: 50px;
-  position: fixed;
+  max-width: 1024px;
 }
 
-.navigation {
+.lista {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-}
-
-.navigation > a {
-  background-color: #2a2a4a;
-  color: #c0c0c0;
-  text-decoration: none;
+  gap: 20px;
   padding: 10px;
-  border-radius: 50px;
 }
 
 .main-container {
@@ -55,7 +38,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   width: 100%;
 }
 
@@ -125,16 +107,8 @@
   gap: 30px;
 }
 
-.projects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: solid #2a2a4a 2px;
-  padding: 10px;
-  border-radius: 30px;
-  color: #2a2a4a;
-  margin: 20px;
+.projects-card {
+  min-height: 480px !important;
 }
 
 .links-project {
@@ -173,16 +147,18 @@
 
 #container-skills {
   flex-direction: column;
-  min-height: 100vh;
   color: #2a2a4a;
 }
 
 .skills {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+.skills img {
+  width: 25px;
 }
 
 footer {

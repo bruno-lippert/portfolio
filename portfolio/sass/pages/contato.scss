@@ -1,0 +1,6 @@
+@use "../colors/colors.scss" as colors;
+
+.body {
+  background-color: colors.$secondary-color;
+  margin: 20px;
+}
