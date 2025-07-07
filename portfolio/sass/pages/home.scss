@@ -179,28 +179,28 @@
 }
 
 //------------- footer -------------
-footer {
-  @extend .header;
-  position: relative;
-  border-radius: 10px 10px 0 0;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-  background-color: colors.$primary-color;
-}
+// footer {
+//   @extend .header;
+//   position: relative;
+//   border-radius: 10px 10px 0 0;
+//   flex-direction: column;
+//   align-items: center;
+//   height: 100%;
+//   background-color: colors.$primary-color;
+// }
 
-footer > p {
-  padding: 5px;
-}
+// footer > p {
+//   padding: 5px;
+// }
 
-footer > p > a {
-  color: black;
-  text-decoration: none;
+// footer > p > a {
+//   color: black;
+//   text-decoration: none;
 
-  &:hover {
-    text-decoration: underline;
-  }
-}
+//   &:hover {
+//     text-decoration: underline;
+//   }
+// }
 
 //------------- media -------------
 
